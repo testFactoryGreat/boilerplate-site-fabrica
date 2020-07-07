@@ -2,7 +2,7 @@ import React from "react"
 import Title from "./Title"
 import services from "../constants/services"
 const Services = () => {
-  return <section className="section bg-grey">
+  return <section id="services" className="section bg-grey">
     <Title title="Serviços" />
     <div className="section-center services-center">
       {services.map(service => {

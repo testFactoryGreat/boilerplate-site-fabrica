@@ -31,7 +31,9 @@ const Hero = () => {
             Testamos aplicações Web, Móveis e Úbiquas com as  <mark className="yellow" >melhores técnicas</mark> da atualidade.
             </h1>
           <h4 className="btn">
-            CONHEÇA OS NOSSOS SERVIÇOS
+            <a className="hero-services" href="#services">
+              CONHEÇA OS NOSSOS SERVIÇOS
+            </a>
           </h4>
           <SocialLinks />
         </div>

@@ -36,6 +36,7 @@ Variables
   --clr-grey-8: hsl(210, 31%, 80%);
   --clr-grey-9: hsl(212, 33%, 89%);
   --clr-grey-10: #001f3b;
+  --clr-grey-100: #183A59;
   --clr-grey-11: white;
   --clr-green-dark: hsl(125, 67%, 35%);
   --clr-red-dark: hsl(360, 67%, 44%);
@@ -207,7 +208,7 @@ p {
   margin-top: 2rem;
   width: 15rem;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 .social-link {
   font-size: 1.75rem;
@@ -453,6 +454,9 @@ Hero
 }
 .hero-info h4 {
   color: var(--clr-grey-5);
+}
+.hero-services {
+  color: var(--clr-grey-6);
 }
 .hero-icons {
   justify-items: flex-start;
@@ -858,7 +862,7 @@ Footer
   text-align: center;
   display: grid;
   place-items: center;
-  background-color: var(--clr-grey-10);
+  background-color: var(--clr-grey-100);
 }
 .footer h3 {
   margin-top: 0.5rem;
@@ -876,7 +880,7 @@ Footer
 }
 .footer-links {
   margin: 0 auto 1rem auto;
-  background-color: var(--clr-grey-10);
+  background-color: var(--clr-grey-100);
 }
 .footer .social-link {
   color: var(--clr-white);
@@ -1038,6 +1042,7 @@ Contact Page
   border-bottom-right-radius: var(--radius);
   border-top-right-radius: 0;
   border-top-left-radius: 0;
+  background-color: var(--clr-grey-100);
 }
 /*
 ===============
