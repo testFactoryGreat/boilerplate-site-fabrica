@@ -14,7 +14,7 @@ Variables
 :root {
   /* dark shades of primary color*/
   /* --clr-primary-1: hsl(43, 86%, 17%); */
-  --clr-primary-1: hsl(184, 91%, 17%);
+  --clr-primary-1: #848484;
   --clr-primary-2: hsl(185, 84%, 25%);
   --clr-primary-3: hsl(185, 81%, 29%);
   --clr-primary-4: hsl(184, 77%, 34%);
@@ -23,18 +23,20 @@ Variables
   --clr-primary-6: hsl(185, 57%, 50%);
   --clr-primary-7: hsl(184, 65%, 59%);
   --clr-primary-8: #FFBA3E;
-  --clr-primary-9: hsl(185, 94%, 87%);
-  --clr-primary-10: hsl(186, 100%, 94%);
+  --clr-primary-9: white;
+  --clr-primary-10: white;
   /* darkest grey - used for headings */
   --clr-grey-1: hsl(209, 61%, 16%);
   --clr-grey-12: white;
   --clr-grey-3: hsl(209, 34%, 30%);
   --clr-grey-4: hsl(209, 28%, 39%);
   /* grey used for paragraphs */
-  --clr-grey-5: white;
+  --clr-grey-5: #001f3b;
+  --clr-grey-6: white;
   --clr-grey-8: hsl(210, 31%, 80%);
   --clr-grey-9: hsl(212, 33%, 89%);
   --clr-grey-10: #001f3b;
+  --clr-grey-11: white;
   --clr-green-dark: hsl(125, 67%, 35%);
   --clr-red-dark: hsl(360, 67%, 44%);
   --clr-red-light: hsl(360, 71%, 66%);
@@ -329,7 +331,7 @@ Sidebar
   display: block;
   text-align: center;
   text-transform: capitalize;
-  color: var(--clr-grey-5);
+  color: var(--clr-grey-6);
   letter-spacing: var(--spacing);
   margin-bottom: 0.5rem;
   font-size: 2rem;
@@ -457,6 +459,20 @@ Hero
 }
 .hero .btn {
   margin-top: 1.25rem;
+}
+
+.about-info {
+  background-color: transparent;
+  color: white;
+}
+.about-img {
+  display: none;
+}
+.about-info h4 {
+  color: var(--clr-grey-5);
+}
+.about-icons {
+  justify-items: flex-start;
 }
 
 @media screen and (min-width: 992px) {
@@ -921,8 +937,21 @@ About Page
   margin-left: 0;
   margin-right: 0;
 }
-.about-text p {
+.about-text {
   line-height: 2;
+}
+.about-text h2 {
+  color: white;
+  text-align: center;
+}
+.about-text h3 {
+  color: white;
+  text-align: center;
+}
+
+.about-text p {
+  color: white;
+  text-align: center;
 }
 .stack-container {
   width: 30rem;
@@ -990,12 +1019,10 @@ Contact Page
   display: block;
   width: 100%;
   padding: 0.75rem 1rem;
-  border: none;
+  border-color: #001f3b;
   margin-bottom: 1.25rem;
-  background: var(--clr-grey-10);
+  background: var(--clr-grey-11);
   border-radius: var(--radius);
-  text-transform: uppercase;
-  letter-spacing: var(--spacing);
 }
 .form-control::placeholder {
   font-family: var(--ff-primary);
