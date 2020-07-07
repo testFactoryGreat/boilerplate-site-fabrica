@@ -24,9 +24,6 @@ const Hero = () => {
     <div className="section-center hero-center">
       <article className="hero-info">
         <div>
-          <h3>
-            O QUE FAZEMOS?
-            </h3>
           <h1>
             Testamos aplicações Web, Móveis e Úbiquas com as  <mark className="yellow" >melhores técnicas</mark> da atualidade.
             </h1>

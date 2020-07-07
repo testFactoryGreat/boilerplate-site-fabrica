@@ -29,18 +29,18 @@ export default [
     id: 4,
     icon: <img src={usabilidade} width="50%" height="50%" />,
     title: "Treinamentos",
-    text: `Realizamos treinamento de forma constante na equipe, buscando sempre estar alinhado com as melhores tecnologias da atualidade`,
+    text: `Realizamos treinamentos na área de testes que possibilitam a capacitação da sua equipe `,
   },
   {
     id: 5,
     icon: <img src={heuristica} width="50%" height="50%" />,
     title: "Consultoria",
-    text: `Atuamoas também prestando consultoria e trazendo soluções para dentro da sua empresa, garantindo a qualidade do seu software`,
+    text: `Atuamos também prestando consultoria e trazendo soluções para dentro da sua empresa, garantindo a qualidade do seu software`,
   },
   {
     id: 6,
     icon: <img src={ux} width="50%" height="50%" />,
     title: "Pesquisa Aplicada",
-    text: `Além de profissionais certificados, temos influência da academia em nossas atividades, com pesquisas constantes por parte do corpo discente de mestres e doutores da UFC`,
+    text: `Além de profissionais certificados, realizamos pesquisas científicas para inovar em soluções na área de testes de software`,
   },
 ]

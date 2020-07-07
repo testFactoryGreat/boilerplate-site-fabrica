@@ -858,6 +858,7 @@ Footer
 ===============
 */
 .footer {
+  padding-top: 30px;
   background: #222;
   text-align: center;
   display: grid;
@@ -928,6 +929,7 @@ About Page
 */
 .about-page {
   padding: 7rem 0;
+  background-color: var(--clr-grey-100);
 }
 .about-img {
   margin-bottom: 2rem;
@@ -947,15 +949,18 @@ About Page
 .about-text h2 {
   color: white;
   text-align: center;
+  padding-bottom: 50px;
 }
 .about-text h3 {
   color: white;
   text-align: center;
+  padding-bottom: 50px;
 }
 
 .about-text p {
   color: white;
   text-align: center;
+  padding-top: 50px;
 }
 .stack-container {
   width: 30rem;

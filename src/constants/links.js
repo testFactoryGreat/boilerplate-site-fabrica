@@ -9,12 +9,12 @@ const data = [
   {
     id: 2,
     text: "Sobre a Fábrica",
-    url: "/about/",
+    url: "#about",
   },
   {
     id: 3,
     text: "Contato",
-    url: "/contact/",
+    url: "#contact",
   },
 ]
 

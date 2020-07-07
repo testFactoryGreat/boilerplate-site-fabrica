@@ -6,10 +6,14 @@ import Services from "../components/Services"
 import Jobs from "../components/Jobs"
 import Projects from "../components/Projects"
 import Blogs from "../components/Blogs"
+import About from "../components/About"
+import Contact from "../components/Contact"
 export default () => {
   return <Layout>
     <Hero />
     <Services />
+    <About />
+    <Contact />
   </Layout>
 }
 // ...GatsbyImageSharpFluid
