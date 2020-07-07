@@ -32,7 +32,6 @@ const Hero = () => {
             </h1>
           <h4 className="btn">
             CONHEÇA OS NOSSOS SERVIÇOS
-            {/* <img className="space" src={seta} alt="seta" /> */}
           </h4>
           <SocialLinks />
         </div>
