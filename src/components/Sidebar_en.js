@@ -1,5 +1,5 @@
 import React from "react"
-import Links from "../constants/linksSideBar"
+import Links from "../constants/linksSideBar_en"
 import SocialLinks from "../constants/socialLinks"
 import { FaTimes } from "react-icons/fa"
 const Sidebar = ({ isOpen, toggleSidebar }) => {

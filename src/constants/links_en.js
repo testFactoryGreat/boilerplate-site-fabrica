@@ -1,20 +1,20 @@
 import React from "react"
 import { Link } from "gatsby"
-import usa from "../assets/usa.png"
+import brasil from "../assets/brasil.png"
 const data = [
   {
     id: 1,
-    text: "Início",
+    text: "Home",
     url: "/",
   },
   {
     id: 2,
-    text: "Sobre a Fábrica",
+    text: "About",
     url: "#about",
   },
   {
     id: 3,
-    text: "Contato",
+    text: "Contact",
     url: "#contact",
   },
 ]
@@ -40,10 +40,9 @@ export default ({ styleClass }) => {
   return (
     <ul className={`page-links ${styleClass ? styleClass : ""}`}>
       {tempLinks}
-      <a href="/index_en/">
-        <img src={usa} alt="usa" width="43" height="30" />
+      <a href="/">
+        <img src={brasil} alt="brasil" width="43" height="30" />
       </a>
-      {/* <button className="btn-language">English</button> */}
     </ul>
   )
 }

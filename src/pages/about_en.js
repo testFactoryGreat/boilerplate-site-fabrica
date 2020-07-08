@@ -1,5 +1,5 @@
 import React from "react"
-import Layout from "../components/Layout"
+import Layout from "../components/Layout_en"
 import { graphql } from "gatsby"
 import Title from "../components/Title"
 import imagesite from "../assets/hero.jpg"
