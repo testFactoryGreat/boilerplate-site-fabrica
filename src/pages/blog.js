@@ -2,7 +2,7 @@ import React from "react"
 import Layout from "../components/Layout"
 import { graphql } from "gatsby"
 import Blogs from "../components/Blogs"
-// ...GatsbyImageSharpFluid
+import SEO from "../components/SEO"
 
 export default ({ data }) => {
   const {
@@ -12,6 +12,7 @@ export default ({ data }) => {
   } = data
   return (
     <Layout>
+      <SEO />
       <Blogs articles={articles} title="Artigos" />
     </Layout>)
 }

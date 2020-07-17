@@ -8,10 +8,8 @@ module.exports = {
   siteMetadata: {
     title: "Fábrica de testes Great",
     description: "Empresa de testes com sede na Universidade Federal do Ceará",
-    author: "@lcarvalhodev",
-    twitterUsername: "@john_smilga",
-    image: "/twitter-img.png",
-    siteUrl: "https://testing-strapi-gatsby-build.netlify.app",
+    author: "Fábrica de Testes",
+    siteUrl: "https://test-factory-great.netlify.app",
   },
   plugins: [
     `gatsby-transformer-sharp`,
@@ -46,6 +44,18 @@ module.exports = {
         gfm: true,
         // Plugins configs
         plugins: [],
+      },
+    },
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: `Fábrica de Testes`,
+        short_name: `FT - Great`,
+        start_url: `/`,
+        background_color: `#001f3b`,
+        theme_color: `#001f3b`,
+        display: `minimal-ui`,
+        icon: `src/assets/logoIcon.png`
       },
     },
     `gatsby-plugin-netlify-cms`

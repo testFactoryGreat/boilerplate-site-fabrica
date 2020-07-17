@@ -8,6 +8,8 @@ import Projects from "../components/Projects"
 import Blogs from "../components/Blogs"
 import About from "../components/About"
 import Contact from "../components/Contact"
+import SEO from "../components/SEO"
+
 
 
 export default ({ data }) => {
@@ -18,6 +20,7 @@ export default ({ data }) => {
   } = data
 
   return (<Layout>
+    <SEO />
     <Hero />
     <Services />
     <About />

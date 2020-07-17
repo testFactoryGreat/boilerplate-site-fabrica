@@ -4,10 +4,12 @@ import { graphql } from "gatsby"
 import Title from "../components/Title"
 import imagesite from "../assets/hero.jpg"
 import Image from "gatsby-image"
-// ...GatsbyImageSharpFluid
+import SEO from "../components/SEO"
+
 const About = () => {
   return (
     <Layout>
+      <SEO />
       <section className="about-page">
         <div className="section-center">
           <article className="about-text">
