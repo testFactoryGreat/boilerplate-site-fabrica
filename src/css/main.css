@@ -93,6 +93,9 @@ mark.yellow {
   height:10%
 }
 
+.slide{
+ background: none; 
+}
 h1,
 h2,
 h3,
@@ -183,7 +186,11 @@ p {
 .section-center {
   margin: 0 auto;
   max-width: 1170px;
+}
 
+.section-center div{
+  background-color: none;
+  background: none;
 }
 
 @media screen and (min-width: 992px) {
