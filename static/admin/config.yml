@@ -1,8 +1,8 @@
 backend:
-  name: git-gateway
+  name: github
   repo: testFactoryGreat/boilerplate-site-fabrica
   branch: master
-  site_domain: https://test-factory-great.netlify.app/
+  site_domain: test-factory-great.netlify.app
 
 publish_mode: editorial_workflow
 media_folder: "statis/assets/img"
