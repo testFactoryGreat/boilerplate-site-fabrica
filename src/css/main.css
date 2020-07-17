@@ -26,12 +26,13 @@ Variables
   --clr-primary-9: white;
   --clr-primary-10: white;
   /* darkest grey - used for headings */
-  --clr-grey-1: hsl(209, 61%, 16%);
+  --clr-grey-1: white;
   --clr-grey-12: white;
   --clr-grey-3: hsl(209, 34%, 30%);
   --clr-grey-4: hsl(209, 28%, 39%);
   /* grey used for paragraphs */
   --clr-grey-5: #001f3b;
+  --clr-grey-50: white;
   --clr-grey-6: white;
   --clr-grey-8: hsl(210, 31%, 80%);
   --clr-grey-9: hsl(212, 33%, 89%);
@@ -810,7 +811,7 @@ Blog
 .blog {
   display: block;
   margin-bottom: 2rem;
-  background: var(--clr-grey-10);
+  background: var(--clr-grey-100);
   border-radius: var(--radius);
   box-shadow: var(--light-shadow);
   transition: var(--transition);
@@ -822,7 +823,6 @@ Blog
 .blog article {
   height: 100%;
   display: grid;
-  grid-template-rows: auto 1fr;
 }
 .blog-card {
   display: grid;
@@ -837,8 +837,12 @@ Blog
   padding: 1.5rem 1rem;
 }
 .blog-card h4 {
-  color: var(--clr-grey-1);
+  color: var(--clr-primary-8);
 }
+.blog-card p {
+  color: var(--clr-primary-9);
+}
+
 
 .blog-footer {
   display: flex;
@@ -848,7 +852,7 @@ Blog
 .blog-footer p {
   margin-bottom: 0;
   font-weight: bold;
-  color: var(--clr-grey-5);
+  color: var(--clr-grey-50);
 }
 .blog-footer p:first-of-type {
   display: inline-block;
@@ -944,6 +948,9 @@ Pages
 Blog Page
 ===============
 */
+.article-page {
+  background-color: var(--clr-grey-10);
+}
 .blog-page .blog {
   background: var(--clr-white);
 }

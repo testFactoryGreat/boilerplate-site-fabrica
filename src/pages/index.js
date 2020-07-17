@@ -8,12 +8,15 @@ import Projects from "../components/Projects"
 import Blogs from "../components/Blogs"
 import About from "../components/About"
 import Contact from "../components/Contact"
-export default () => {
-  return <Layout>
+
+
+export default ({ }) => {
+  return (<Layout>
     <Hero />
     <Services />
     <About />
+    {/* <Blogs articles={articles} title="Artigos" /> */}
     <Contact />
   </Layout>
+  )
 }
-// ...GatsbyImageSharpFluid
