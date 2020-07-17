@@ -1,5 +1,5 @@
 import React from "react"
-import { graphql } from "gatsby"
+import { useStaticQuery, graphql } from "gatsby"
 import Layout from "../components/Layout"
 import Hero from "../components/Hero"
 import Services from "../components/Services"
@@ -10,13 +10,35 @@ import About from "../components/About"
 import Contact from "../components/Contact"
 
 
-export default ({ }) => {
+export default ({ data }) => {
+  const {
+    allMarkdownRemark: {
+      nodes: articles
+    }
+  } = data
+
   return (<Layout>
     <Hero />
     <Services />
     <About />
-    {/* <Blogs articles={articles} title="Artigos" /> */}
+    <Blogs articles={articles} title="Artigos" />
     <Contact />
   </Layout>
   )
 }
+
+export const query = graphql`
+  {
+    allMarkdownRemark {
+      nodes {
+        frontmatter {
+          link
+          title
+          resume
+          date(locale: "pt-br", formatString: "DD [de] MMMM [de] YYYY")
+        }
+        id
+      }
+    }
+  }
+`

@@ -892,7 +892,7 @@ Footer
   text-align: center;
   display: grid;
   place-items: center;
-  background-color: var(--clr-grey-100);
+  background-color: var(--clr-grey-10);
 }
 .footer h3 {
   margin-top: 0.5rem;
@@ -910,7 +910,7 @@ Footer
 }
 .footer-links {
   margin: 0 auto 1rem auto;
-  background-color: var(--clr-grey-100);
+  background-color: var(--clr-grey-10);
 }
 .footer .social-link {
   color: var(--clr-white);
@@ -929,7 +929,7 @@ Pages
 .error-page,
 .about-page,
 .contact-page {
-  background: var(--clr-grey-10);
+  background: var(--clr-grey-100);
   min-height: calc(100vh - 5rem - 9rem);
 }
 .error-page {
@@ -949,6 +949,7 @@ Blog Page
 ===============
 */
 .article-page {
+  padding: 7rem 0;
   background-color: var(--clr-grey-10);
 }
 .blog-page .blog {

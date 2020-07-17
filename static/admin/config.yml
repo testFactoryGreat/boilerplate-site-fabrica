@@ -5,7 +5,7 @@ backend:
   site_domain: test-factory-great.netlify.app
 
 publish_mode: editorial_workflow
-media_folder: "statis/assets/img"
+media_folder: "static/assets/img" 
 public_folder: "assets/img"
 
 collections:
@@ -16,5 +16,5 @@ collections:
     fields: # The fields for each document, usually in front matter
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Resume", name: "resume", widget: "string"}
-      - {label: "Date", name: "date", widget: "datetime", format: "DD-MM-YYYY"}
-      - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Link", name: "link", widget: "string"}
+      - {label: "Date", name: "date", widget: "datetime", format: "YYYY-MM-DD hh:mm:ss"}
