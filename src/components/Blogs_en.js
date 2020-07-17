@@ -34,7 +34,7 @@ export const Blogs = ({ articles, title }) => {
   };
 
   return <section id="articles" className="article-page">
-    <Title title={title} subtitle="Pesquisas que resultaram em artigos publicados pela nossa equipe" />
+    <Title title={title} subtitle="Articles written by our team and published in conferences" />
 
     <div className="section-center ">
       <Slider {...settings}>

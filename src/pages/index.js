@@ -21,7 +21,7 @@ export default ({ data }) => {
     <Hero />
     <Services />
     <About />
-    {/* <Blogs articles={articles} title="Artigos" /> */}
+    <Blogs articles={articles} title="Artigos" />
     <Contact />
   </Layout>
   )
@@ -35,6 +35,7 @@ export const query = graphql`
           link
           title
           resume
+          event
           date(locale: "pt-br", formatString: "DD [de] MMMM [de] YYYY")
         }
         id
