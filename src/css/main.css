@@ -883,10 +883,12 @@ Blog
   line-height: 1.2rem;
   color: var(--clr-primary-8);
   text-align: center;
+  height: 5rem;
 }
 .blog-card p {
   margin-top: 1.7rem;
   color: var(--clr-primary-9);
+  height: 10rem;
 }
 
 .blog-footer {
@@ -899,6 +901,7 @@ Blog
   /* margin-right: 2rem; */
   font-weight: bold;
   color: var(--clr-grey-50);
+  height: 100%;
 }
 .blog-footer p:first-of-type {
   display: inline-block;
