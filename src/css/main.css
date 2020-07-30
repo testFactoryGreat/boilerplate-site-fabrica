@@ -870,7 +870,7 @@ Blog
 .blog-card {
   display: grid;
   grid-template-rows: auto 2fr auto;
-  height: 25rem;
+  height: 35rem;
   padding: 1.5rem 1.5rem;
 }
 .blog-img {
