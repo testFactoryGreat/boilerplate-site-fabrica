@@ -49,4 +49,5 @@ export default [
       title: "Testes de Segurança",
       text: `Projeto de extensão Fábrica de Testes de Segurança que visa capacitar alunos e profissionais em teste de software com foco em segurança`,
 
-    }
+    },
+ ]
