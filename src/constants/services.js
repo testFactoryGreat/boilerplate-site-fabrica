@@ -6,7 +6,7 @@ import desempenho from "../assets/desempenho.png"
 import heuristica from "../assets/heuristica.png"
 import ux from "../assets/ux.png"
 import usabilidade from "../assets/usabilidade.png"
-const data =  [
+export default [
   {
     id: 1,
     icon: <img src={desempenho} width="50%" height="50%" />,
@@ -47,23 +47,6 @@ const data =  [
       id: 7,
       icon: <img src={funcionais} width="50%" height="50%" />,
       title: "Testes de Segurança",
-      text: `Projeto de extensão ‘Fábrica de Testes de Segurança’ que visa capacitar alunos e profissionais em teste de software com foco em segurança`,
-      url: "https://twitter.com/great_ufc",
+      text: `<h2>Projeto de extensão ‘Fábrica de Testes de Segurança’ que visa capacitar alunos e profissionais em teste de software com foco em segurança</h2>`,
 
     },
-]
-const links = data.map(link => {
-  return (
-    <li key={link.id}>
-      <a href={link.url} className="services">
-        {link.icon}
-      </a>
-    </li>
-  )
-})
-
-export default ({ styleClass }) => {
-  return (
-    <ul className={`services ${styleClass ? styleClass : ""}`}>{links}</ul>
-  )
-}
