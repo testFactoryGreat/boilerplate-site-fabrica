@@ -43,4 +43,10 @@ export default [
     title: "Pesquisa Aplicada",
     text: `Além de profissionais certificados, realizamos pesquisas científicas para inovar em soluções na área de testes de software`,
   },
+  {
+      id: 7,
+      icon: <img src={funcionais} width="50%" height="50%" />,
+      title: "Testes de Segurança",
+      text: `Projeto de extensão ‘Fábrica de Testes de Segurança’ que visa capacitar alunos e profissionais em teste de software com foco em segurança`,
+    },
 ]
