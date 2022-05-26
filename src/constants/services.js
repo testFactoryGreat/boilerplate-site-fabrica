@@ -51,5 +51,19 @@ export default [
       url: "https://twitter.com/great_ufc",
 
     },
- 
 ]
+const links = data.map(link => {
+  return (
+    <li key={link.id}>
+      <a href={link.url} className="services">
+        {link.icon}
+      </a>
+    </li>
+  )
+})
+
+export default ({ styleClass }) => {
+  return (
+    <ul className={`social-links ${styleClass ? styleClass : ""}`}>{links}</ul>
+  )
+}
