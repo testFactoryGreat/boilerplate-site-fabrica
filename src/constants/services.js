@@ -51,5 +51,5 @@ export default [
       url: "https://twitter.com/great_ufc",
 
     },
-   ]
+ 
 ]
