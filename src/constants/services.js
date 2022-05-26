@@ -6,7 +6,7 @@ import desempenho from "../assets/desempenho.png"
 import heuristica from "../assets/heuristica.png"
 import ux from "../assets/ux.png"
 import usabilidade from "../assets/usabilidade.png"
-export default [
+const data =  [
   {
     id: 1,
     icon: <img src={desempenho} width="50%" height="50%" />,
