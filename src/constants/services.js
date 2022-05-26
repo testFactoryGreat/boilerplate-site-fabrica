@@ -48,6 +48,6 @@ export default [
       icon: <img src={funcionais} width="50%" height="50%" />,
       title: "Testes de Segurança",
       text: `Projeto de extensão <a href='https://testfactorygreat.github.io/'>Fábrica de Testes de Segurança</a> que visa capacitar alunos e profissionais em teste de software com foco em segurança`,
-
+      url: "https://testfactorygreat.github.io/",
     },
  ]
