@@ -14,11 +14,16 @@ const data = [
   },
   {
     id: 3,
+    text: "FT Segurança",
+    url: "https://fabricadetestesdeseguranca.netlify.app/",
+  },
+  {
+    id: 4,
     text: "Artigos",
     url: "#articles",
   },
   {
-    id: 4,
+    id: 5,
     text: "Contato",
     url: "#contact",
   },
