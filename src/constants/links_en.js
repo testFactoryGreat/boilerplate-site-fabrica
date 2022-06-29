@@ -14,7 +14,7 @@ const data = [
   },
   {
     id: 3,
-    text: "TF Security",
+    text: "Security TF",
     url: "https://fabricadetestesdeseguranca.netlify.app/",
   },
   {
